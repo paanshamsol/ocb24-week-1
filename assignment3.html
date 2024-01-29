@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+
+            border: 1px solid red;
+            min-height: 50px;
+            padding: 20px;
+        }
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #adbe0e;
+}
+
+.active {
+  background-color: #adbe0e;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.banner{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px ;
+    background-color: #adbe0e;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#adbe0e;
+    color: rgb(10, 4, 4);
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+ }
+
+    </style>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+            <div class="box" style="border-color: transparent; border-style: double;">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <img src="assets/prd.jpg" alt="" width="200px" height="55px">
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Contact us</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+                  <div class="banner" style="border-color: transparent;display: flex;flex-direction: row;flex-wrap: wrap; gap: 10px;justify-content: center;"> 
+                    <p>All Services</p>
+                    <p>All Services</p>
+                    <p>All Services</p>
+                    <p>All Services</p>
+                    <p>All Services</p>
+                  </div>
+            </div>
+
+
+<div class="box" style="border-color: transparent; display: flex;flex-direction: row;flex-wrap: wrap; gap: 2px; justify-content:flex-start;height: 1120px;align-items: baseline; background-color: #555;">
+<div class="card" >
+  <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>Buy Now</button></p>
+</div>
+                
+<div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>        
+                
+                
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+                
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+           
+            
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+    <p class="price">$5999.99</p>
+    <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+  <p class="price">$5999.99</p>
+  <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="assets/myvi.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Myvi G3 FL</h1>
+    <p class="price">$5999.99</p>
+    <p>Some text about the car. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Buy Now</button></p>
+  </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright © 2023 farhanshamsol Archives. All Rights Reserved.</p>
+      </div>
+</body>
+</html>
